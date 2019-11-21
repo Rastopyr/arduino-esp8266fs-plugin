@@ -8,10 +8,10 @@ os:
 addons:
   apt:
     packages:
-    - ant
+      - ant
 
 jdk:
-  - oraclejdk8
+  - oraclejdk9
 
 script:
   - export SRC=$PWD

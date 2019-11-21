@@ -286,7 +286,7 @@ public class ESP8266FS implements Tool {
     
 
     Object[] options = { "Yes", "No" };
-    String title = "SPIFFS Create";
+    String title = "SPIFFS Created";
     String message = "No files have been found in your data folder!\nAre you sure you want to create an empty SPIFFS image?";
 
     if(fileCount == 0 && JOptionPane.showOptionDialog(editor, message, title, JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, options, options[1]) != JOptionPane.YES_OPTION){
